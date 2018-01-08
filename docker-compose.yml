@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ffmpeg:
+    ports:
+     - "3000:3000"
+     - "8034:80"
+    volumes:
+     - .:/workspace
+    image: "hemant24/ffmpeg"
+    
+
